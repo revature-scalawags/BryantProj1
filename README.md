@@ -4,12 +4,12 @@ Project Description:
   Reads in a wiki TSV file with the wiki page's name and number of views and then uses MapReduce to count the number of views 
   each page recieved. 
 
-Technologies Used
+Technologies Used:
   Scala - Version 2.14.4
   Apache Hadoop - Version 1.4.6
   SBT - Version 0.15.0
 
-Features
+Features:
   Reads in wikipedia TSV file from HDFS
   Returns data set with wiki page name and the number of views
 
@@ -33,7 +33,7 @@ Getting Started:
 Usage:
   In terminal navigate to directory containing project and type: sbt "run [input dir] [output dir]"
     [input dir] = your input file (wiki tsv file)
-    [output dir] = output file (location where you want to save calulations done after MapReduce)
+    [output dir] = output file (location where you want to save calulations after MapReduce)
 
 
 
